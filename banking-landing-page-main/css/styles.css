@@ -1,0 +1,62 @@
+.quienes-somos-container {
+    background-color: #60E4CB;
+    padding: 25px 80px; /* Agregamos relleno lateral */
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 25px; /* Redondeamos los bordes */
+    margin: 4vw;
+}
+
+.quienes-somos-container h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; /* Nuevo tamaño de letra */
+    font-weight: 800; /* Extrabold */
+}
+
+
+.quienes-somos-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; /* Nuevo tamaño de letra */
+    font-weight: 500; /* Medium */
+}
+
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .quienes-somos-container {
+        background-color: #60E4CB;
+        padding: 20px; /* Reducimos el relleno lateral */
+        text-align: center;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 25px; /* Redondeamos los bordes */
+        margin: 5vw 0; /* Eliminamos el margen lateral */
+    }
+    
+    .quienes-somos-container h2 {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px; /* Reducimos el tamaño del título */
+        font-weight: 800; /* Extrabold */
+    }
+    
+    .quienes-somos-container p {
+        color: black; /* Cambiamos el color del texto a negro */
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px; /* Reducimos el tamaño del texto */
+        font-weight: 500; /* Medium */
+    }
+}
+
+/* Estilos para pantallas aún más pequeñas, como smartphones */
+@media screen and (max-width: 480px) {
+    .quienes-somos-container h2 {
+        font-size: 20px; /* Reducimos aún más el tamaño del título */
+    }
+    
+    .quienes-somos-container p {
+        font-size: 18px; /* Reducimos aún más el tamaño del texto */
+    }
+}
