@@ -1,0 +1,19 @@
+.custombar {
+    margin-left: 800px;
+}
+
+.custom-nav {
+    background-color: #4BBF9E;
+}
+
+.btn-oval {
+    border-radius: 20px; /* Esto es para el radio del borde el botón */
+
+    background-color: #28a745; 
+    border-color: #28a745; 
+}
+
+.btn-oval:hover {
+    background-color: #218838; 
+    border-color: #1e7e34; 
+}
